@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsl(30, 38%, 92%);
+    font-family: mo;
+}
+
+h5,
+h1,
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h5 {
+    padding-top: 20px;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+    color: hsl(228, 12%, 48%);
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.container {
+    background: url(./images/image-product-desktop.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height: 43%;
+    display: flex;
+    width: 600px;
+    margin: 20px auto 20px auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    transition: .7s;
+}
+.container:hover {
+    box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+    transform: translateY(-15px);
+}
+
+
+.Infocontainer {
+    margin-left: 50%;
+}
+
+.btn {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    font-size: 1em;
+    margin-top: -20px;
+    transform: translatex(50px);
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.discount {
+    margin-right: 10px;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+}
+
+.price{
+    
+text-decoration: line-through;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 395px){
+.container{
+    background: url('images/image-product-mobile.jpg');
+    background-size: 100%;
+    height: 70%;
+    width: 300px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+.Infocontainer{
+
+    margin-top: 20px;
+    margin-left: 0;
+    ;
+}
+
+h5{
+    padding-top: 215px;
+}
+
+}
+    
+
+    
+
