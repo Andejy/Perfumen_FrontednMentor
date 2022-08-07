@@ -48,7 +48,8 @@ p {
     background: url(./images/image-product-desktop.jpg);
     background-size: 50%;
     background-repeat: no-repeat;
-    max-height: 40%;
+    height: 60vh;
+    max-height: 400px;
     display: flex;
     width: 600px;
     margin: 20px auto 20px auto;
@@ -108,11 +109,12 @@ text-decoration: line-through;
 .container{
     background: url('images/image-product-mobile.jpg');
     background-size: 100%;
-    max-height: 75%;
     width: 300px;
+    height: 50vh;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     background-repeat: no-repeat;
+   max-height: 800px;
 }
 .Infocontainer{
 
